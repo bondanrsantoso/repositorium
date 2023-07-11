@@ -39,7 +39,6 @@ class Server {
     await this.router.init();
     this.server = httpServer(this.express);
     this.server.listen(this.port);
-    console.log("Foo");
   }
 }
 
